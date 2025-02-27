@@ -8,7 +8,7 @@ import Login from './pages/Login'
 import About from './pages/About' 
 import Contact from './pages/Contact' 
 import MyProfile from './pages/MyProfile' 
-import MyAppointments from './pages/MyAppointments' 
+import MyAppointments from './pages/MyAppointment' 
 import Appointment from './pages/Appointment' 
 
 const App = () => {
