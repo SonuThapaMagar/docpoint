@@ -7,7 +7,7 @@ const NavBar = () => {
     return (
         <div className='flex items-center justify-between text-sm py-4 border-b border-b-gray-400'>
             <img src={logo} alt="Docpoint" className='cursor-pointer h-24 w-auto max-w-[190px]' />
-            <ul>
+            <ul className='hidden md:flex items-start gap-5 font-medium'>
                 <NavLink to="/">
                     <li>Home</li>
                 </NavLink>
