@@ -2,13 +2,13 @@
 @import "tailwindcss";
 
 * {
-    font-family: Outline;
+    font-family: Outfit;
 }
 
 .active hr {
     display: block;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     @apply hidden
 }
