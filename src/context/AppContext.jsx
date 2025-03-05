@@ -1,13 +1,15 @@
-import React,{ createContext } from "react";
+import React, { createContext } from "react";
 import { doctors } from '../assets/assets_frontend/assets'
 
 export const AppContext = createContext()
 
-const AppContextProvider = ({children }) => {
+const AppContextProvider = ({ children }) => {
 
-    const value = {doctors};
+    const currencySymbol = '$'
 
-    return(
+    const value = { doctors, currencySymbol };
+
+    return (
         <AppContext.Provider value={value}>
             {children}
         </AppContext.Provider>
