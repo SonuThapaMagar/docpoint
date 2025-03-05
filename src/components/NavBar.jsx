@@ -12,7 +12,7 @@ const NavBar = () => {
     const [showMenu, setShowMenu] = useState(false);
     const [token, setToken] = useState(true);
     return (
-        <div className='flex items-center justify-between text-sm py-4 border-b border-b-gray-400'>
+        <div className='flex items-center justify-between text-sm py-2 border-b border-b-gray-400 mb-5'>
             <img src={logo} alt="Docpoint" className='cursor-pointer h-24 w-auto max-w-[190px]' />
             <ul className='hidden md:flex items-start gap-5 font-medium'>
                 <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>
