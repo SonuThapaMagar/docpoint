@@ -11,6 +11,7 @@ import Contact from './pages/Contact'
 import MyProfile from './pages/MyProfile' 
 import MyAppointments from './pages/MyAppointment' 
 import Appointment from './pages/Appointment' 
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -28,7 +29,9 @@ const App = () => {
         <Route path="/myProfile" element={<MyProfile />} />
         <Route path="/myAppointments" element={<MyAppointments />} />
         <Route path="/appointment/:docId" element={<Appointment />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer/>
     </div>
   )
 }
